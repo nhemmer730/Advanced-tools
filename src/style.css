@@ -37,6 +37,7 @@ p {
 .navigation-links {
   display: flex;
   margin-top: 10px;
+  text-align: center;
   justify-content: center;
 }
 
@@ -82,4 +83,21 @@ p {
 
 .row {
   margin: 20px;
+}
+
+@media (max-width: 545px) {
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h3 {
+    display: none;
+  }
+  .contact {
+    font-size: small;
+  }
 }
