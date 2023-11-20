@@ -6,7 +6,6 @@
 
 body {
   font-family: marigny, sans-serif;
-  margin-top: 70px;
 }
 
 h1,
@@ -17,10 +16,12 @@ h3 {
 
 h1 {
   font-size: 96px;
+  margin-top: 60px;
 }
 
 h2 {
   font-size: 48px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -29,13 +30,13 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 10px;
   justify-content: center;
 }
 
@@ -45,7 +46,8 @@ p {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 10px;
+  margin: 30px 15px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -62,16 +64,6 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs {
-  margin: 30px 0;
-}
-
 .about-paragraphs p {
   margin: 10px;
 }
@@ -86,4 +78,8 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.row {
+  margin: 20px;
 }
